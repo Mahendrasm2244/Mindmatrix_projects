@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.pratham.chikitse.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pratham/chikitse/ui/hospital/HospitalScreen.kt"
+                            line="94"
+                            column="42"
+                            startOffset="3928"
+                            endLine="94"
+                            endColumn="73"
+                            endOffset="3959"/>
+                    </map>
+                    <map id="android.intent.action.DIAL (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pratham/chikitse/ui/hospital/HospitalScreen.kt"
+                            line="89"
+                            column="42"
+                            startOffset="3588"
+                            endLine="89"
+                            endColumn="104"
+                            endOffset="3650"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[ic_launcher_background(U)],drawable[ic_launcher_foreground(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U)],style[Theme_PrathamChikitse(U),Theme_MaterialComponents_DayNight_NoActionBar(R)];2^0^1,3^0^1,5^6;;;"/>
+    </map>
+
+</incidents>

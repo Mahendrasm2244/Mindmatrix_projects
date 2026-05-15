@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161674852617",
+    "project_id": "pratamachickitse",
+    "storage_bucket": "pratamachickitse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161674852617:android:686d52b538bd0cd0c6fbd8",
+        "android_client_info": {
+          "package_name": "com.example.PratamaChickitse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7cv5N_184UQrfwpZZQdxv1SbkDxTCRcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
